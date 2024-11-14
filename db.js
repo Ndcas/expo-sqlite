@@ -13,7 +13,7 @@ db.withTransactionAsync(async () => {
     await db.runAsync(`
         insert into Account
         values
-            (1, '12345678),
+            (1, '12345678'),
             (2, '12345679')
     `);
 });
